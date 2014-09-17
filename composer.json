@@ -1,0 +1,30 @@
+{
+    "name": "xiangminwang/wechat-enterprise-client",
+    "description": "Let enterprise wechat give you a new OA exprience.",
+    "homepage": "https://github.com/xiangminwang/wechat-enterprise-client/",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": ">=4.0"
+    },
+    "keywords": [
+        "api",
+        "oauth2",
+        "wechat",
+        "weixin",
+        "enterprise",
+        "client"
+    ],
+    "authors": [
+        {
+            "name": "Xiangmin Wang",
+            "email": "wang@xiangmin.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XiangMinWang\\WechatEnterpriseClient\\": "src/"
+        }
+    },
+    "minimum-stability" : "dev"
+}
