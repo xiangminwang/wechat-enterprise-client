@@ -1,0 +1,8 @@
+.idea
+vendor
+coverage
+
+.DS_Store
+*.lock
+*.phar
+*.sublime-*
